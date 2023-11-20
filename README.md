@@ -12,7 +12,9 @@ Expected Graduation: December 2023
 
 ---
 
-Brief Project Description
+## Description
+
+This project is a newsreader application built in the Rust programming language. It operates as a GUI for the user, sourcing news from http://newsapi.org/.
 
 ## Compile/Deploy
 

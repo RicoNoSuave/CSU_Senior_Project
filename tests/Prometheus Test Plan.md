@@ -41,22 +41,22 @@ Expected Graduation: December 2023
 ### References
 <ul>
  	<li>
-		<a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/docs/Prometheus%20Full%20Documentation.md">Full Documentation</a>
+		<a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/docs/Prometheus%20Full%20Documentation.md">Full Documentation</a>
 	</li>
 	<li>
-		<a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/docs/Prometheus%20Project%20Proposal.md">Project Proposal</a>
+		<a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/docs/Prometheus%20Project%20Proposal.md"">Project Proposal</a>
 	</li>
  	<li>
-		<a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/docs/Prometheus%20Project%20Requirements.md">Project Requirements</a>
+		<a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/docs/Prometheus%20Project%20Requirements.md">Project Requirements</a>
 	</li>
  	<li>
-		<a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Useability%20Testing%20Script.md">Useability Testing Script</a>
+		<a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Useability%20Testing%20Script.md">Useability Testing Script</a>
 	</li>
  	<li>
-		<a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Enhancement%20Logs.md">Enhancement Logs</a>
+		<a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Enhancement%20Logs.md">Enhancement Logs</a>
 	</li>
  	<li>
-		<a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Test%20Results.md">Test Results</a>
+		<a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Test%20Results.md">Test Results</a>
 	</li>
 </ul>
 
@@ -97,9 +97,9 @@ Furthermore, both the Prometheus Newsreader and Prometheus Website will achieve 
 ### Test Deliverables
 * Test Plan
 * Test Cases
-* <a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Useability%20Testing%20Script.md">Useability Testing Script</a>
-* <a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Enhancement%20Logs.md">Enhancement Logs</a>
-* <a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Test%20Results.md">Test Results</a>
+* <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Useability%20Testing%20Script.md">Useability Testing Script</a>
+* <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Enhancement%20Logs.md">Enhancement Logs</a>
+* <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Test%20Results.md">Test Results</a>
 
 ### Test Environment
 * Windows 10 Machine

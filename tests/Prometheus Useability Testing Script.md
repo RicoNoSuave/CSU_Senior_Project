@@ -35,15 +35,15 @@ Expected Graduation: December 2023
 
 ### Introduction
 <p>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome! Thank you for taking the time to participate in this testing experience. Over the course of this test, you will follow the Useability Testing Script, during which you will navigate to the Prometheus Website, read the installation and operation instructions for the Prometheus newsreader application, then download and operate said application. After each test is a grading scale of 1 to 5, with 1 being extremely unsatisfying and 5 being extremely satisfying. Please record your scores at that time. After testing is complete, you will be asked for potential improvements to the Prometheus Website and Prometheus newsreader application. We appreciate any and all feedback in hopes of improving this set of products. Again, thank you for participating in this testing experience. Let's begin.
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome! Thank you for taking the time to participate in this testing experience. Over the course of this test, you will  you will navigate to the Prometheus website, read the installation and operation instructions for the Prometheus newsreader application, then download and operate said application. After each question is a grading scale of 1 to 5, with 1 being extremely unsatisfying and 5 being extremely satisfying. Please record your scores after each question. After testing is complete, you will be asked for potential improvements to the Prometheus website and Prometheus newsreader application. We appreciate any and all feedback in hopes of improving this set of products. Again, thank you for participating in this testing experience. Let's begin.
 </p>
 
 ### Testing Script
 1. Open Firefox on the machine before you, then click on the bookmark for the Prometheus Website. How do you rate the initial appearance of the site?
 
-2. Navigate to the Download page. Read the installation instructinos for the Windows distribution of Prometheus. Now read the operation instructions. How prepared do you feel to install and run Prometheus?
+2. Navigate to the Download page. Read the installation instructions for the Windows distribution of Prometheus. Now read the operation instructions. How prepared do you feel to install and run Prometheus?
 
-3. Follow the instructions as read during step 2. Download and run Prometheus. In your browser, please open the newsapi.org bookmark in a separate tab. Press the login button in the top right corner. Log in using the following credentials:
+3. Follow the instructions as read during step 2. Download the windows distribution of Prometheus. When prompted, change the installation location to ```C:\Users\ricon\Desktop\```. Navigate to the desktop. Open the Prometheus folder and run Prometheus. Read the starting prompt. Now, in your browser, please open the newsapi.org bookmark in a separate tab. Press the login button in the top right corner. Log in using the following credentials:
 
 	Username: REHarris@csustudent.net
 	Password: Password
@@ -79,7 +79,7 @@ Thank you again for participating in this exercise. Your grading of these produc
 
 	(1 - 5) __
 
-2. Navigate to the Download page. Read the installation instructinos for the Windows distribution of Prometheus. Now read the operation instructions. How prepared do you feel to install and run Prometheus?
+2. Navigate to the Download page. Read the installation instructions for the Windows distribution of Prometheus. Now read the operation instructions. How prepared do you feel to install and run Prometheus?
 
 	(1 - 5) __
 

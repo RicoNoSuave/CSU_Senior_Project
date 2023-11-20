@@ -98,7 +98,7 @@ Thank you again for participating in this exercise. Your grading of these produc
 
 	(1 - 5) __
 
-5. Press the Settings button in the top left of the application. Note that it is shaped like a wrench. Select a country of your choice. Now click "Top Stories" and select a topic of your choice. Lastly, input a search of your choice. How satisfied are you with your ability to find news articles that you want?
+5. Press the Settings button in the top left of the application. Note that it is shaped like a wrench. Select a country of your choice. Now click "Top Headlines" and select a topic of your choice. Lastly, input a search of your choice. How satisfied are you with your ability to find news articles that you want?
 
 	(1 - 5) __
 
@@ -110,18 +110,18 @@ Thank you again for participating in this exercise. Your grading of these produc
 
 	(1 - 5) __
 
-8. Click on a "Read Article" button underneath a news article. Observe the layout of this experience. How satisfied are you with the presentation of the available information?
+8. Reset the application country to "United States". Select the "Top Headlines" topic. Click on a "Read Article" button underneath a news article. Observe the layout of this experience. How satisfied are you with the presentation of the available information?
 
 	(1 - 5) __
 
-9. Change the timezone on your testing environment. Now press the reload button on the Prometheus application. Click on a "Read Article" button underneath the news article from step 8. Note the change in the publication time and/or date. How satisfied are you with this feature?
+9. Change the timezone on your testing environment. Now press the reload button on the Prometheus application. Click on the same "Read Article" button underneath the news article from step 8. Note the change in the publication time and/or date. How satisfied are you with this feature?
 
 	(1 - 5) __
 
-10. Change the timezone on your testing environment back, then disconnect from the internet. Now press the reload button on the Prometheus application. This will produce an error message. How informative do you find the error message?
+10. Disconnect from the internet. Now press the reload button on the Prometheus application. This will produce an error message. How informative do you find the error message?
 
 	(1 - 5) __
 
-11. Connect to the internet. Close the Prometheus application. Relaunch the Prometheus application. How satisfied are you with this experience?
+11. Connect to the internet. Now, choose your personal favorite text size and Day/Night mode, then close the Prometheus application. Relaunch the Prometheus application. How satisfied are you with this experience?
 
 	(1 - 5) __

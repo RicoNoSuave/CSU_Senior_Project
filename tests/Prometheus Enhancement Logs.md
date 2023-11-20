@@ -32,3 +32,7 @@ Expected Graduation: December 2023
 ## Enhancement Logs <a id="result"></a>
 1. Add feature to settings button in application to hide settings once any choice is made.
 2. Enable newsapi to read full article and remove flags from text.
+3. Change sun icon on night mode.
+4. Allow font size to change button size.
+5. Enable error messages to scale with font size.
+6. Capitalize P in Prometheus.

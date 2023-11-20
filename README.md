@@ -42,63 +42,6 @@ To publish your copy of the web application to your default port. Navigate to lo
 
 The web application is a demonstration of modern distribution methods of software. It describes the Prometheus Newsreader Application, contains download links, and contains the usage methods of the Prometheus Newsreader Application, as shown below.
 <center>
-				<h1 className="Title">Download</h1>
-				<h3>
-						Download for your Operating System:
-				</h3>
-				<table className="Download">
-					<thead>
-						<tr>
-							<th>
-								Windows Instructions
-							</th>
-							<th></th>
-							<th>
-								Linux Instructions
-							</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td align="center">
-								<img alt="Windows" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />
-								&nbsp;&nbsp;: click&nbsp;
-								<a href='/Prometheus Windows Release 1.0.exe' download>
-									here
-								</a>
-							</td>
-							<td width="10px" rowSpan="3">
-								<div className="Line">
-								</div>
-							</td>
-							<td align="center">
-							<img alt="Linux" width="30px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-								&nbsp;&nbsp;: click&nbsp;
-								<a href='/Prometheus Linux Release 1.0.tgz' download>
-									here
-								</a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								To install for Windows:
-								<ol>
-									<li>Move installation file to destination</li>
-									<li>Double click</li>
-									<li>Enjoy</li>
-								</ol>
-							</td>
-							<td>
-								To install for Linux:
-								<ol>
-									<li>Move installation file to destination</li>
-									<li>Unpack</li>
-									<li>Enjoy</li>
-								</ol>
-							</td>
-						</tr>
-					</tbody>
-				</table>
 				<table className="Display">
 					<thead>
 						<th colSpan="2">

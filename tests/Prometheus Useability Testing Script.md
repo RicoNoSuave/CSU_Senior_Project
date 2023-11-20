@@ -67,7 +67,10 @@ Expected Graduation: December 2023
 
 	(1 - 5) __
 
-8. Now that you've experienced all the settings of the Prometheus application, how satisfied are you with the button layout? (1 - 10) ____
+8. Now that you've experienced all the settings of the Prometheus application, how satisfied are you with the button layout?
+
+	(1 - 5) __
+
 9. Click on a "Read Article" button underneath a news article. Observe the layout of this experience. How satisfied are you with the presentation of the available information?
 
 	(1 - 5) __

@@ -1,7 +1,7 @@
 import React from "react";
 import logo from '../PrometheusLogo.png';
 
-var URL = "https://github.com/RHarris87345/CSU-Senior-Project/blob/master/docs/Prometheus%20Full%20Documentation.md";
+var URL = "https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/docs/Prometheus%20Full%20Documentation.md";
 
 const Nav = () => {
     return (

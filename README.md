@@ -108,7 +108,7 @@ The web application is a demonstration of modern distribution methods of softwar
 					<tbody>
 						<tr>
 							<td width="310px" rowSpan="2">
-								<img src="images/first_start.png" alt="startup" height="500px" />
+								<img src="media/first_start.png" alt="startup" height="500px" />
 							</td>
 							<th>
 								Running for the First Time
@@ -149,7 +149,7 @@ The web application is a demonstration of modern distribution methods of softwar
 								Changing Topics
 							</th>
 							<td width="310px" rowSpan="8">
-								<img src="images/headlines.png" alt="headlines" height="500px" />
+								<img src="media/headlines.png" alt="headlines" height="500px" />
 							</td>
 						</tr>
 						<tr>
@@ -198,7 +198,7 @@ The web application is a demonstration of modern distribution methods of softwar
 					<tbody>
 						<tr>
 							<td width="310px" rowSpan="8">
-								<img src="images/article.png" alt="headlines" height="500px" />
+								<img src="media/article.png" alt="headlines" height="500px" />
 							</td>
 							<th>
 								Accessing Articles
@@ -254,7 +254,7 @@ The web application is a demonstration of modern distribution methods of softwar
 								Searching for Articles
 							</th>
 							<td width="310px" rowSpan="2">
-								<img src="images/search.png" alt="search" height="500px" />
+								<img src="media/search.png" alt="search" height="500px" />
 							</td>
 						</tr>
 						<tr>
@@ -284,7 +284,7 @@ The web application is a demonstration of modern distribution methods of softwar
 					<tbody>
 						<tr>
 							<td width="310px" rowSpan="2">
-								<img src="images/settings.png" alt="search" height="500px" />
+								<img src="media/settings.png" alt="search" height="500px" />
 							</td>
 							<th>
 								Settings

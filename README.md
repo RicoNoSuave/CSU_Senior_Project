@@ -18,6 +18,8 @@ This project is a newsreader application built in the Rust programming language.
 
 ## Compile/Deploy
 
+To compile this project, it will require several pre-existing conditions. First, <a href="https://www.rust-lang.org/tools/install">install Rust</a>,
+
 ## Usage
 
 ## Options

@@ -18,7 +18,8 @@ This project is a newsreader application built in the Rust programming language.
 
 ## Compile/Deploy
 
-To compile this project, it will require several pre-existing conditions. First, <a href="https://www.rust-lang.org/tools/install">install Rust</a>,
+To compile this project, it will require several pre-existing conditions. First, <a href="https://www.rust-lang.org/tools/install">install Rust</a>, 
+<a href="[https://www.rust-lang.org/tools/install](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">NPM, and Node</a>.
 
 ## Usage
 

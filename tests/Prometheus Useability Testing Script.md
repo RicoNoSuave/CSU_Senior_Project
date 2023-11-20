@@ -84,9 +84,10 @@ Thank you again for participating in this exercise. Your grading of these produc
 
 	(1 - 5) __
 
-3. Follow the instructions as read during step 2. Download and run Prometheus. In your browser, please open the newsapi.org bookmark in a separate tab. Press the login button in the top right corner. Log in using the following credentials:
+3. Follow the instructions as read during step 2. Download the windows distribution of Prometheus. When prompted, change the installation location to ```C:\Users\ricon\Desktop\```. Navigate to the Desktop. Open the Prometheus folder and run Prometheus. Observe that Prometheus is requesting an API Key. To receive one, transition to your browser. Please open the newsapi.org bookmark in a separate tab. Press the login button in the top right corner. Log in using the following credentials:
 
 	Username: REHarris@csustudent.net
+
 	Password: Password
 
 	copy the provided api key using ctrl+'c'. Now, paste that API key in the window opened by the Prometheus application and press enter. How well did the instructions on the Prometheus website prepare you for this process?

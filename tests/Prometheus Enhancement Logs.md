@@ -30,4 +30,5 @@ Expected Graduation: December 2023
 
 ---
 ## Enhancement Logs <a id="result"></a>
-1.
+1. Add feature to settings button in application to hide settings once any choice is made.
+2. Enable newsapi to read full article and remove flags from text.

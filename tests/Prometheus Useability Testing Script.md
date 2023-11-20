@@ -68,7 +68,7 @@ Expected Graduation: December 2023
 12. Connect to the internet. Close the Prometheus application. Relaunch the Prometheus application. How satisfied are you with this experience?
 
 ### Post-Test Survey
-Thank you for completing the testing steps for the line of Prometheus products. Are there any improvements you would recommend to the products?
+Thank you for completing the testing steps for the line of Prometheus products. You may now step away from the testing environment; an associate will reset the environment for the next tester. Before you go, are there any improvements you would recommend to the Prometheus website and Prometheus newsreader application?
 
 ### Debriefing
 Thank you again for participating in this exercise. Your grading of these products will be used to improve this experience for all future users. Thank you as well for any improvement ideas provided. Have a nice day!

@@ -43,7 +43,7 @@ Expected Graduation: December 2023
 
 2. Navigate to the Download page. Read the installation instructions for the Windows distribution of Prometheus. Now read the operation instructions. How prepared do you feel to install and run Prometheus?
 
-3. Follow the instructions as read during step 2. Download the windows distribution of Prometheus. When prompted, change the installation location to ```C:\Users\ricon\Desktop\```. Navigate to the desktop. Open the Prometheus folder and run Prometheus. Read the starting prompt. Now, in your browser, please open the newsapi.org bookmark in a separate tab. Press the login button in the top right corner. Log in using the following credentials:
+3. Follow the instructions as read during step 2. Download the windows distribution of Prometheus. When prompted, change the installation location to ```C:\Users\ricon\Desktop\```. Navigate to the Desktop. Open the Prometheus folder and run Prometheus. Observe that Prometheus is requesting an API Key. To receive one, transition to your browser. Please open the newsapi.org bookmark in a separate tab. Press the login button in the top right corner. Log in using the following credentials:
 
 	Username: REHarris@csustudent.net
 	Password: Password

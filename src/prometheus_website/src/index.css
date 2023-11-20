@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Space Grotesk", sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.Home,
+.Download {
+	width: 790px;
+	align-items: center;
+	padding: 30px;
+	align-self: center;
+}
+.Download > thead > tr > th {
+	padding-bottom: 20px;
+	align-items: center;
+}
+.Download > tbody > tr > td {
+	padding: 8px;
+}
+.Download > tbody > tr > td > ol {
+	padding: 18px;
+}
+.Display {
+	width: 900px;
+	padding: 30px;
+}
+.Display > thead > th {
+	padding-bottom: 20px;
+}
+.Display > tbody {
+	padding-top: 20px;
+}
+.Display > tbody > tr > th {
+	padding-left: 30px;
+	padding-right: 30px;
+	vertical-align: top;
+}
+.Display > tbody > tr > td {
+	padding-left: 30px;
+	padding-right: 30px;
+	vertical-align: top;
+}
+.Display > tbody > tr > td > ol {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.Display > tbody > tr > td > ul {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.Display > tbody > tr > td > ul > ul {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.Line {
+	border-left: 2px solid gray;
+	height: 170px;
+}
+.Title {
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+.Standard {
+	width: 790px;
+	margin-bottom: 60px;
+}
+.Standard > tr > td {
+	text-align: left;
+}
+.navbar {
+	width: 100%;
+	padding: 10px 20px;
+	background-color: #171515;
+	display: flex;
+	height: 10vh;
+	align-items: left;
+	justify-content: left;
+}
+.navbar > form {
+	width: auto;
+}
+.navbar > form > ul {
+	align-items: left;
+	padding-top: 10px;
+	width: 1275px;
+}
+.navbar > form > ul > li {
+	display: inline;
+}
+.navbar > form > ul > li > h3 {
+	display: inline;
+	color: #fffbf5;
+	text-align: left;
+	width: auto;
+	padding: 5px;
+}
+.navbar > form > ul > li > h3 > a {
+	text-decoration: none;
+	color: white;
+}
+.navbar > form > ul > li > h2 {
+	display: inline;
+	color: #fffbf5;
+	text-align: left;
+	width: fit-content;
+	padding: 15px;
+}
+.navbar > form > ul > li > h3:hover {
+	background-color: #da4e31;
+}
+.contact {
+	display: flex;
+	align-items: center;
+}
+.contact > ul > li {
+	display: inline;
+}
+.contact > ul > li > h3 > a {
+	text-decoration: none;
+	color: white;
+}
+.contact > ul > li > h3 {
+	display: inline;
+	color: #fffbf5;
+	text-align: left;
+	width: auto;
+	padding: 5px;
+}
+.contact > ul > li > h3:hover {
+	background-color: #da4e31;
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/prometheus_website/static/css/main.10579452.css",
+    "main.js": "/prometheus_website/static/js/main.96a764cb.js",
+    "static/js/787.d96f6518.chunk.js": "/prometheus_website/static/js/787.d96f6518.chunk.js",
+    "static/media/PrometheusLogo.png": "/prometheus_website/static/media/PrometheusLogo.0cf1ce31d6ca4c31a305.png",
+    "index.html": "/prometheus_website/index.html",
+    "main.10579452.css.map": "/prometheus_website/static/css/main.10579452.css.map",
+    "main.96a764cb.js.map": "/prometheus_website/static/js/main.96a764cb.js.map",
+    "787.d96f6518.chunk.js.map": "/prometheus_website/static/js/787.d96f6518.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10579452.css",
+    "static/js/main.96a764cb.js"
+  ]
+}

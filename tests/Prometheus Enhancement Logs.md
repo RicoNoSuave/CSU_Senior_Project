@@ -36,3 +36,6 @@ Expected Graduation: December 2023
 4. Allow font size to change button size.
 5. Enable error messages to scale with font size.
 6. Capitalize P in Prometheus.
+7. Enable darkmode on the website.
+8. Make "How to Use" on the website bigger/underlined.
+9. Add contrast to search box in application.

@@ -35,5 +35,6 @@ Expected Graduation: December 2023
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|------------|---------|
 | 1 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
 | 2 | 4 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 5 | 4.73 |
+| 3 | 4 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 4.82 |
 
 * For enhancement suggestions, please see the <a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Enhancement%20Logs.md"> Enhancement Logs</a>

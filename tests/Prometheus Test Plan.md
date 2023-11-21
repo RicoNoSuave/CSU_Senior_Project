@@ -35,7 +35,7 @@ Expected Graduation: December 2023
 
 ### Introduction
 <p>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This test plan is made to document the process of testing the viability and performance of the Prometheus Newsreader and Prometheus Website. The goals of this plan is to test these softwares in order to demonstrate sufficient completion and locate potential weaknesses in their development. By following the plan outlined below, each feature of the Prometheus Newsreader and Prometheus Website will be demonstrated to be complete and secure.
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This test plan is made to document the process of testing the viability and performance of the Prometheus newsreader application and Prometheus website. The goals of this plan is to test these softwares in order to demonstrate sufficient completion and locate potential weaknesses in their development. By following the plan outlined below, each feature of the Prometheus newsreader application and Prometheus website will be demonstrated to be complete and secure.
 </p>
 
 ### References
@@ -61,23 +61,23 @@ Expected Graduation: December 2023
 </ul>
 
 ### Features to be Tested
-* Unit validation between the Prometheus Newsreader GUI and NewsAPI.org, including error handling
-* Unit mutation by the Prometheus Newsreader for readability
-* Downloads from the Prometheus Website
-* Cohesive integration between all aspects of the Prometheus Newsreader, and between all aspects of the Prometheus Website
-* Proper linking from the Prometheus Newsreader to the Prometheus Website
-* Font size and design for both the Prometheus Newsreader and Prometheus Website
-* Feature layout for both the Prometheus Newsreader and Prometheus Website
-* Minimization, maximization, and closing the Prometheus Newsreader
+* Unit validation between the Prometheus newsreader application GUI and NewsAPI.org, including error handling
+* Unit mutation by the Prometheus newsreader application for readability
+* Downloads from the Prometheus website
+* Cohesive integration between all aspects of the Prometheus newsreader application, and between all aspects of the Prometheus website
+* Proper linking from the Prometheus newsreader application to the Prometheus website
+* Font size and design for both the Prometheus newsreader application and Prometheus website
+* Feature layout for both the Prometheus newsreader application and Prometheus website
+* Minimization, maximization, and closing the Prometheus newsreader application
 
 ### Features not to be Tested
-* External validation of links from Prometheus Newsreader to articles.
+* External validation of links from Prometheus newsreader application to articles.
 
 ### Approach
 The master test plan is as follows:
-* Unit Test Plan: Unit testing will be performed to test that the Prometheus Newsreader is sending the appropriate data types to NewsAPI.org, is returning proper data types to the user, and is processing errors natively. Furthermore, the Prometheus Website will be tested that downloads are of the appropriate type and functionality.
-* Integration Test Plan: Integration testing is integral to the completion of this project. As such, the Prometheus Newsreader will be tested to ensure that requests are occurring to display new data when submitted by the user. The Prometheus Website will have each page tested to properly link to one another. Lastly, the Prometheus Newsreader will have the "about" button tested to ensure that it correctly leads to the Prometheus Website.
-* Useability Test Plan: Useability testing will be performed to rate the useability for both the Prometheus Newsreader and Prometheus Website, as well as the font size, font design, and feature layout for both platforms.
+* Unit Test Plan: Unit testing will be performed to test that the Prometheus newsreader application is sending the appropriate data types to NewsAPI.org, is returning proper data types to the user, and is processing errors natively. Furthermore, the Prometheus website will be tested that downloads are of the appropriate type and functionality.
+* Integration Test Plan: Integration testing is integral to the completion of this project. As such, the Prometheus newsreader application will be tested to ensure that requests are occurring to display new data when submitted by the user. The Prometheus website will have each page tested to properly link to one another. Lastly, the Prometheus newsreader application will have the "about" button tested to ensure that it correctly leads to the Prometheus website.
+* Useability Test Plan: Useability testing will be performed to rate the useability for both the Prometheus newsreader application and Prometheus website, as well as the font size, font design, and feature layout for both platforms.
 
 ### Pass/Fail Criteria
 The user will be able to:
@@ -89,10 +89,10 @@ The user will be able to:
 * Customize displayed news through font size selection
 * Access news further via article selection and external links
 * Maintain Country, font size, night mode, and API key across repeated instances
-* Download distributions of Prometheus Newsreader for both Windows and Linux
-* Read usage instructions for the Prometheus Newsreader on the Prometheus Website
+* Download distributions of Prometheus newsreader application for both Windows and Linux
+* Read usage instructions for the Prometheus newsreader application on the Prometheus website
 
-Furthermore, both the Prometheus Newsreader and Prometheus Website will achieve an aggregate rating of 80% (4.0/5.0) from the Useability Test Plan.
+Furthermore, both the Prometheus newsreader application and Prometheus website will achieve an aggregate rating of 80% (4.0/5.0) from the Useability Test Plan.
 
 ### Test Deliverables
 * Test Plan
@@ -130,7 +130,7 @@ Dr. Sean Hayes
 | Check Link Viability              | Integration Test | Check that the "read more"<br /> link opens the browser | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Click on "read more" link on newscard | | Link opens in browser | Link opened in browser | PASS |
 | Ensure Refresh Capability         | Integration Test | Ensure that the refresh button requests new news | Prometheus is compiled and internet connected | Internet is disconnected | 1. Launch Prometheus<br /> 2. Check news<br /> 3. Disconnect internet connection<br /> 4. Click refresh button | | News loads, then an error generates because refresh gave no data | News loaded, then an error generated | PASS |
 | Validate Error Handling           | Integration Test | Check that Prometheus handles<br /> errors natively | Prometheus is compiled and internet disconnected | Internet is connected | 1. Launch Prometheus<br /> 2. View error information in frame<br /> 3. Connect internet<br /> 4. Reload | | Error information loads in frame, then<br /> resolves when fixed and reloaded | Error information loaded in frame and resolved<br /> when fixed | PASS |
-| Validate JSON Conversion          | Unit Test | Check that the Prometheus<br /> Newsreader converts<br /> data to valid types | Prometheus is compiled, running,<br /> and has a valid API key | | 1. Launch Prometheus | | Rendered News Data | Rendered News Data | PASS |
+| Validate JSON Conversion          | Unit Test | Check that the Prometheus<br /> newsreader application converts<br /> data to valid types | Prometheus is compiled, running,<br /> and has a valid API key | | 1. Launch Prometheus | | Rendered News Data | Rendered News Data | PASS |
 | Validate Variable Mutation        | Unit Test | Check that article publish time<br /> adjusts by local offset | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Click on article<br /> 3. Check time<br /> 4. Adjust timezone in computer settings<br /> 5. Reload article<br /> 6. Check time | | Publish time adjusts based on local timezone | Publish time adjusted based on local timezone | PASS |
 | Ensure Menu Support               | Integration Test | Validate that menus load<br /> in Prometheus | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Click on "Top Headlines" | | A menu loads | A menu loaded | PASS |
 | Validate Country Menu             | Unit Test | Check that each country<br /> selection works | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Cycle through each country | | Each country loads new articles | Each country loaded new articles | PASS |
@@ -141,9 +141,9 @@ Dr. Sean Hayes
 | Ensure Save State Capability      | Integration Test | Ensure that Prometheus saves<br /> Night Mode and Font Size<br /> between runs | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Set new Night Mode and Font Size settings<br /> 3. Close Prometheus<br /> 4. Launch Prometheus | | Night Mode and Font Size persist through runs | Night Mode and Font Size persisted through runs | PASS | 
 | Ensure Settings Button Capability | Integration Test | Store Font Size and Country<br /> menus behind Settings button | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Click Settings button<br /> 3. Change Country<br /> 4. Click Settings button<br /> 5. Change Font Size | | Country and Font Size menus are behind Settings button | Country and Font Size menus are behind Settings button | PASS |
 | Ensure Custom Frame Functionality | Integration Test | Ensure that the custom frame<br /> displays custom icon, settings button,<br /> maximize/minimize/close buttons,<br /> and is moveable | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Observe Icon<br /> 3.Observe Settings Button<br /> 4. Drag Prometheus around screen<br /> 5. Maximize Prometheus<br /> 6. Restore Prometheus<br /> 7. Minimize Prometheus<br /> 8. Bring Prometheus up<br /> 9. Close Prometheus | | Frame contains proper elements and functions properly | Frame contained proper elements and functioned properly | PASS |
-| Visit Website                     | Integration Test | Ensure that the Prometheus Website<br /> is functional | Prometheus Website is up | | 1. Navigate to the Prometheus Website | | Prometheus Website is functional | Prometheus Website was functional | PASS |
-| Validate "About" Link             | Integration Test | Ensure that the "About" link opens<br /> the Prometheus Website | Prometheus is compiled and the Prometheus Website is up | | 1. Launch Prometheus<br /> 2. Click Settings<br /> 3. Click About | | Prometheus Website opens in a browser | Prometheus Website opened in a browser | PASS |
+| Visit website                     | Integration Test | Ensure that the Prometheus website<br /> is functional | Prometheus website is up | | 1. Navigate to the Prometheus website | | Prometheus website is functional | Prometheus website was functional | PASS |
+| Validate "About" Link             | Integration Test | Ensure that the "About" link opens<br /> the Prometheus website | Prometheus is compiled and the Prometheus website is up | | 1. Launch Prometheus<br /> 2. Click Settings<br /> 3. Click About | | Prometheus website opens in a browser | Prometheus website opened in a browser | PASS |
 | Test Packages                     | Integration Test | Check that Prometheus launches on both<br /> Windows and Linux operating systems | Prometheus is compiled for Windows and Linux | | 1. Launch a Windows OS<br /> 2. Launch Prometheus Windows Distribution<br /> 3. Note Functionality<br /> 4. Launch a Linux OS<br /> 5. Launch Prometheus Linux Distribution<br /> 6. Note Functionality | 1. Prometheus Windows Distribution<br /> 2. Prometheus Linux Distribution | Prometheus launches on both operating systems | Prometheus launched on both operating systems | PASS |
-| Download Prometheus               | Integration Test | Ensure that the download links<br /> in the Prometheus Website initiate downloads<br /> of their respective distributions | Prometheus is compiled for Windows and Linux,<br /> each distribution is loaded into the Prometheus Website server,<br /> and the Prometheus Website is up | | 1. Access the Prometheus Website<br /> 2. Click on Download<br /> 3. Click on Windows download button<br /> 4. Observe download<br /> 5. Click on Linux download button<br /> 6. Observe download | | Respective distributions download properly | Respective distributions downloaded properly | PASS |
-| View Documentation                | Integration Test | Validate link from Prometheus Website<br /> to Senior Project Documentation | Prometheus Website is up | | 1. Access the Prometheus Website<br /> 2. Click on Documentation<br /> 3. Observe Documentation on Github | Senior Project Documentation | Browser navigates to Github repo | Browser navigated to Github repo | PASS |
-| Useability Testing                | Useability Test | Test the useability of the Prometheus Newsreader<br /> and Website | Prometheus is compiled, Prometheus Website is up,<br />Test environment is open, and the useability testing script is generated | | 1. Follow useability testing script | <a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Useability%20Testing%20Script.md">Useability Testing Script</a> | Average score of 80% (4.0/5.0) | | |
+| Download Prometheus               | Integration Test | Ensure that the download links<br /> in the Prometheus website initiate downloads<br /> of their respective distributions | Prometheus is compiled for Windows and Linux,<br /> each distribution is loaded into the Prometheus website server,<br /> and the Prometheus website is up | | 1. Access the Prometheus website<br /> 2. Click on Download<br /> 3. Click on Windows download button<br /> 4. Observe download<br /> 5. Click on Linux download button<br /> 6. Observe download | | Respective distributions download properly | Respective distributions downloaded properly | PASS |
+| View Documentation                | Integration Test | Validate link from Prometheus website<br /> to Senior Project Documentation | Prometheus website is up | | 1. Access the Prometheus website<br /> 2. Click on Documentation<br /> 3. Observe Documentation on Github | Senior Project Documentation | Browser navigates to Github repo | Browser navigated to Github repo | PASS |
+| Useability Testing                | Useability Test | Test the useability of the Prometheus newsreader application<br /> and website | Prometheus is compiled, Prometheus website is up,<br />Test environment is open, and the useability testing script is generated | | 1. Follow useability testing script | <a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Useability%20Testing%20Script.md">Useability Testing Script</a> | Average score of 80% (4.0/5.0) | | |

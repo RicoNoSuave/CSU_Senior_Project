@@ -55,25 +55,19 @@ Once you have an API entered, you will have access to the full application (see 
 
 <img src="./../media/headlines.png" style="width:450px"><br />Fig 6. Changing news topics.
 
-![Articles](../media/article.png)  
-Fig 7. A rendered article.
+<img src="./../media/article.png" style="width:450px"><br />Fig 7. A rendered article.
 
-![Search](../media/search.png)  
-Fig 8. Search screen.
+<img src="./../media/search.png" style="width:450px"><br />Fig 8. Search screen.
 
 By clicking the settings button in the top right (see Fig 9), you can change to the top news in a different country (see Fig 10), change the text size (see Fig 11), and link back to the Homepage. Lastly, to invert the color scheme, click the night-mode button on the right (see Fig 12).
 
-![Settings](../media/settings.png)  
-Fig 9. Settings.
+<img src="./../media/settings.png" style="width:450px"><br />Fig 9. Settings.
+ 
+<img src="./../media/country.png" style="width:450px"><br />Fig 10. Choose your country.
+ 
+<img src="./../media/text_size.png" style="width:450px"><br />Fig 11. Choose your text size.
 
-![Country](../media/country.png)  
-Fig 10. Choose your country.
-
-![Country](../media/text_size.png)  
-Fig 11. Choose your text size.
-
-![Night Mode](../media/night_mode.png)  
-Fig 12. Night mode.
+<img src="./../media/night_mode.png" style="width:450px"><br />Fig 12. Night mode.
 
 ## Additional Considerations
 

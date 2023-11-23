@@ -3905,3 +3905,21 @@ Thank you again for participating in this exercise. Your grading of these produc
 | Download Prometheus               | Integration Test | Ensure that the download links<br /> in the Prometheus website initiate downloads<br /> of their respective distributions | Prometheus is compiled for Windows and Linux,<br /> each distribution is loaded into the Prometheus website server,<br /> and the Prometheus website is up | | 1. Access the Prometheus website<br /> 2. Click on Download<br /> 3. Click on Windows download button<br /> 4. Observe download<br /> 5. Click on Linux download button<br /> 6. Observe download | | Respective distributions download properly | Respective distributions downloaded properly | PASS |
 | View Documentation                | Integration Test | Validate link from Prometheus website<br /> to Senior Project Documentation | Prometheus website is up | | 1. Access the Prometheus website<br /> 2. Click on Documentation<br /> 3. Observe Documentation on Github | Senior Project Documentation | Browser navigates to Github repo | Browser navigated to Github repo | PASS |
 | Useability Testing                | Useability Test | Test the useability of the Prometheus newsreader application<br /> and website | Prometheus is compiled, Prometheus website is up,<br />Test environment is open, and the useability testing script is generated | | 1. Follow useability testing script | <a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Useability%20Testing%20Script.md">Useability Testing Script</a> | Average score of 80% (4.0/5.0) | Average: 96% (4.81/5.0) | PASS |
+
+---
+## Challenges Overcome <a id="challenges"></a>
+
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over the course of this project, I have faced many challenges. As a rust-based application, creating Prometheus required learning and mastering rust. After mastering the language, I had to learn how to build an API, including how to request and parse JSONs from JavaScript. Once the API was complete, I needed to build a GUI using the rust eframe framework. After completing the application, I researched how to package and distribute software. In pursuit of that goal, I built a new React app that allows users to read instructions and download my application. By far the most difficult challenge I have overcome has been timing; initially, this project was supposed to be a rust-based terminal. Other than learning rust, I have completed this entire project in just two months. There have been many nights I have been at school working on this project until 3-4 a.m., only to be back for class at 9 a.m., and I have done all of this while maintaining a straight A average during an 18-hour semester. All said I would highly recommend experiencing everything I have done; rust is an amazing language, and learning the distribution side of development is important. I wouldn't recommend my timeline, but my experiences have been worth their weight in gold.
+</p>
+
+---
+## Future Enhancements <a id="enhancements"></a>
+
+1. Add a feature to the settings button in the Prometheus newsreader application to hide the settings menu once any choice is made.
+2. Find new sun icon for night mode.
+3. Allow font size to change button size.
+4. Enable error messages to scale with font size.
+5. Enable darkmode on the website.
+6. Make "How to Use" on the website bigger/underlined.
+7. Add contrast to search box in application.

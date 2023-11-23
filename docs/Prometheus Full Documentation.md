@@ -37,7 +37,7 @@ Expected Graduation: December 2023
 				11. <a href="#plan">Test Plan</a><br />
 				12. <a href="#testing">Test Cases</a><br />
 				13. <a href="#script">Useability Testing Script</a><br />
-				14. <a href="#results">Test Results</a><br />
+				14. <a href="#result">Test Results</a><br />
 				15. <a href="#challenges">Challenges Overcome</a><br />
 				16. <a href="#enhancements">Future Enhancements</a><br />
 			</td>
@@ -3899,3 +3899,20 @@ Thank you for completing the testing steps for the line of Prometheus products. 
 
 ### Debriefing
 Thank you again for participating in this exercise. Your grading of these products will be used to improve this experience for all future users. Thank you as well for any improvement ideas provided. Have a nice day!
+
+---
+## Test Results <a id="result"></a>
+| Tester ID | Problem 1 | Problem 2 | Problem 3 | Problem 4 | Problem 5 | Problem 6 | Problem 7 | Problem 8 | Problem 9 | Problem 10 | Problem 11 | Average |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|------------|---------|
+| 1 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
+| 2 | 4 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 5 | 4.73 |
+| 3 | 4 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 4.82 |
+| 4 | 4 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 4 | 4.73 |
+| 5 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 5 | 4.82 |
+| 6 | 4 | 5 | 4 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 4.73 |
+| 7 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 4.91 |
+| 8 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
+| 9 | 4 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 4.73 |
+| 10 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
+| Total |  |  |  |  |  |  |  |  |  |  |  | 4.82 |
+

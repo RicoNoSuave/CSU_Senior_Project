@@ -40,31 +40,31 @@ To publish your copy of the web application to your default port. Navigate to lo
 As there are two products to this project, each product has their own UI Design. To begin with the React application, there is a focus on simplicity and theme. The Home page contains a descriptor of Prometheus and an image of it functioning (see Fig 1), while the Download page contains the download links to the project, installation instructions, and useage instructions with pictures (see Fig 2 and 3).
 
 <img src="./../media/Homepage.png">
+
 Fig 1. The Homepage of the Web Application.
 
-![Download](../media/Download.png)
 <img src="./../media/Download.png">
-Fig 2. The Download page.
 
-![Instructions](../media/Useage.png)  
+Fig 2. The Download page.
+ 
 <img src="./../media/Useage.png">
+
 Fig 3. Useage instructions on the Download page.
 
 When using the Prometheus Application for the first time, you need to have an API Key from https://newsapi.org/ (see Fig 4).
 
-![Api Key](../media/first_start.png) 
-<img src="./../media/first_start.png" style="width:100px">
+<img src="./../media/first_start.png" style="width:500px">
+
 Fig 4. The launch screen before entering an API Key.
 
 Once you have an API entered, you will have access to the full application (see Fig 5). When using Prometheus, you can change topics (see Fig 6), access articles (see Fig 7), and search for specific articles (see Fig 8).
 
-![Running](../media/running.png)  
+<img src="./../media/running.png" style="width:500px">
 
-<img src="./../media/running.png" style="width:100px">
 Fig 5. Prometheus running as normal.
 
-![Topics](../media/headlines.png)  
-<img src="./../media/headlines.png" style="width:100px">
+<img src="./../media/headlines.png" style="width:500px">
+
 Fig 6. Changing news topics.
 
 ![Articles](../media/article.png)  

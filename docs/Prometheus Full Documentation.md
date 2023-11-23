@@ -36,7 +36,7 @@ Expected Graduation: December 2023
 				10. <a href="#impl">Implementation</a><br />
 				11. <a href="#plan">Test Plan</a><br />
 				12. <a href="#script">Useability Testing Script</a><br />
-				13. <a href="#result">Test Results</a><br />
+				13. <a href="#result">Useability Testing Results</a><br />
 				14. <a href="#testing">Test Cases</a><br />
 				15. <a href="#challenges">Challenges Overcome</a><br />
 				16. <a href="#enhancements">Future Enhancements</a><br />
@@ -3764,7 +3764,7 @@ To use the Prometheus application, you will need an API key from https://newsapi
 		<a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Enhancement%20Logs.md">Enhancement Logs</a>
 	</li>
  	<li>
-		<a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Test%20Results.md">Test Results</a>
+		<a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Test%20Results.md">Useability Testing Results</a>
 	</li>
 </ul>
 
@@ -3807,7 +3807,7 @@ Furthermore, both the Prometheus newsreader application and Prometheus website w
 * Test Cases
 * <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Useability%20Testing%20Script.md">Useability Testing Script</a>
 * <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Enhancement%20Logs.md">Enhancement Logs</a>
-* <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Test%20Results.md">Test Results</a>
+* <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Test%20Results.md">Useability Testing Results</a>
 
 ### Test Environment
 * Windows 10 Machine
@@ -3870,7 +3870,7 @@ Thank you for completing the testing steps for the line of Prometheus products. 
 Thank you again for participating in this exercise. Your grading of these products will be used to improve this experience for all future users. Thank you as well for any improvement ideas provided. Have a nice day!
 
 ---
-## Test Results <a id="result"></a>
+## Useability Testing Results <a id="result"></a>
 | Tester ID | Problem 1 | Problem 2 | Problem 3 | Problem 4 | Problem 5 | Problem 6 | Problem 7 | Problem 8 | Problem 9 | Problem 10 | Problem 11 | Average |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|------------|---------|
 | 1 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |

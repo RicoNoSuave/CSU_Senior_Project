@@ -93,5 +93,13 @@ Expected Graduation: December 2023
 | 1 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
 | 2 | 4 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 5 | 4.73 |
 | 3 | 4 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 4.82 |
+| 4 | 4 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 4 | 4.73 |
+| 5 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 5 | 4.82 |
+| 6 | 4 | 5 | 4 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 4.73 |
+| 7 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 4.91 |
+| 8 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
+| 9 | 4 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 4.73 |
+| 10 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
+| Total |  |  |  |  |  |  |  |  |  |  |  | 4.82 |
 
 * For enhancement suggestions, please see the <a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Enhancement%20Logs.md"> Enhancement Logs</a>

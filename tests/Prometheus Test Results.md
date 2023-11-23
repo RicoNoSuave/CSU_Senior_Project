@@ -23,11 +23,7 @@ Expected Graduation: December 2023
 	<tbody>
 		<tr>
 			<td>
-				1. <a href="#answer">Answer Sheet</a>
-			</td>
-		</tr>
-		<tr>
-			<td>
+				1. <a href="#answer">Answer Sheet</a><br />
 				2. <a href="#result">Test Results</a>
 			</td>
 		</tr>

@@ -3739,26 +3739,6 @@ To use the Prometheus application, you will need an API key from https://newsapi
 To use the Prometheus application, you will need an API key from https://newsapi.org/.
 
 ---
-
-<table>
-	<thead>
-		<tr>
-			<th align="left">
-				Table of Contents:
-			</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>
-				1. <a href="#plan">Test Plan</a></br>
-				2. <a href="#testing">Test Cases</a><br />
-			</td>
-		</tr>
-	</tbody>
-</table>
-
----
 ## Test Plan <a id="plan"></a>
 
 ### Introduction
@@ -3846,6 +3826,7 @@ Furthermore, both the Prometheus newsreader application and Prometheus website w
 ### Approvals
 Dr. Sean Hayes
 
+---
 ## Test Cases<a id="testing"></a>
 
 | Test Scenario                     | Test Type | Test Case | Preconditions | Postconditions | Test Steps | Test Data | Expected Result | Actual Results | PASS/FAIL |

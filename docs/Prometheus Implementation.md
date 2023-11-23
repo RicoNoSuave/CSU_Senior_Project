@@ -24,21 +24,23 @@ Expected Graduation: December 2023
 	<tbody>
 		<tr>
 			<td>
-				1. <a href="#desc">Project Implementation</a></br>
+				1. <a href="#desc">Project Description</a></br>
+				1. <a href="#compile">How to Compile and Run the Program</a></br>
+				1. <a href="#design">UI Design</a></br>
+				1. <a href="#consid">Additional Considerations</a>
 			</td>
 		</tr>
 	</tbody>
 </table>
 
 ---
-## Project Implementation<a id="desc"></a>
-
-### Project Description
+## Project Description<a id="desc"></a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project is a full development cycle of a newsreader application from development in Rust to deployment through a React application. The Prometheus application is a standalone GUI built using the Rust Eframe framework, built to display information as requested from https://newsapi.org/. News can be requested by topic or by custom searches. These results are sorted by most engagement by country, which is set by the user. Lastly, the user can customize their viewing experience through modifying the font size and through toggling night mode. The React application serves as a website for the distribution of the Prometheus application, including a description of the product, download links for the product by Operating System, installation instructions, and operational instructions.
 The React application also links to the compiled Senior Project documentation ([found here](https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/docs/Prometheus%20Full%20Documentation.md)).
 
-### How to compile and run the program
+---
+## How to Compile and Run the Program <a id="compile"></a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To compile this project, it will require several pre-existing conditions. First, <a href="https://www.rust-lang.org/tools/install">install Rust</a>, 
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">NPM, and Node</a>. To compile the Prometheus newsreader application, download the Prometheus/ file from src, then run:
@@ -60,8 +62,8 @@ npm start;
 ```
 To publish your copy of the web application to your default port. Navigate to localhost:xxxx and enjoy!
 
-
-### UI Design
+---
+## UI Design <a id="design"></a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As there are two products to this project, each product has their own UI Design. To begin with the React application, there is a focus on simplicity and theme. The Home page contains a descriptor of Prometheus and an image of it functioning (see Fig 1), while the Download page contains the download links to the project, installation instructions, and useage instructions with pictures (see Fig 2 and 3).
 
@@ -95,6 +97,7 @@ When using the Prometheus Application for the first time, you need to have an AP
 
 <img src="./../media/night_mode.png" style="width:450px"><br />Fig 12. Night mode.
 
-### Additional Considerations
+---
+## Additional Considerations <a id="consid"></a>
 
 To use the Prometheus application, you will need an API key from https://newsapi.org/.

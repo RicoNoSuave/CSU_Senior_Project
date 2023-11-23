@@ -1,3 +1,4 @@
+
 # <img src="../media/prometheus_logo.png" style="width:30px"> Prometheus
 
 
@@ -10,7 +11,27 @@ Project Advisor: Dr. Sean Hayes
 
 Expected Graduation: December 2023
 
-## Project description
+---
+
+<table>
+	<thead>
+		<tr>
+			<th align="left">
+				Table of Contents:
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				1. <a href="#desc">Problem Implementation</a></br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+---
+## Project Implementation<a id="desc"></a>
 
 This project is a full development cycle of a newsreader application from development in Rust to deployment through a React application. The Prometheus application is a standalone GUI built using the Rust Eframe framework, built to display information as requested from https://newsapi.org/. News can be requested by topic or by custom searches. These results are sorted by most engagement by country, which is set by the user. Lastly, the user can customize their viewing experience through modifying the font size and through toggling night mode. The React application serves as a website for the distribution of the Prometheus application, including a description of the product, download links for the product by Operating System, installation instructions, and operational instructions.
 The React application also links to the compiled Senior Project documentation ([found here](https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/docs/Prometheus%20Full%20Documentation.md)).

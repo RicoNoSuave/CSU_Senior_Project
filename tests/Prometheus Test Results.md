@@ -25,6 +25,8 @@ Expected Graduation: December 2023
 			<td>
 				1. <a href="#answer">Test Results</a>
 			</td>
+		</tr>
+		<tr>
 			<td>
 				2. <a href="#result">Test Results</a>
 			</td>

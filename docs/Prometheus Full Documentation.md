@@ -3856,3 +3856,46 @@ Dr. Sean Hayes
 | Download Prometheus               | Integration Test | Ensure that the download links<br /> in the Prometheus website initiate downloads<br /> of their respective distributions | Prometheus is compiled for Windows and Linux,<br /> each distribution is loaded into the Prometheus website server,<br /> and the Prometheus website is up | | 1. Access the Prometheus website<br /> 2. Click on Download<br /> 3. Click on Windows download button<br /> 4. Observe download<br /> 5. Click on Linux download button<br /> 6. Observe download | | Respective distributions download properly | Respective distributions downloaded properly | PASS |
 | View Documentation                | Integration Test | Validate link from Prometheus website<br /> to Senior Project Documentation | Prometheus website is up | | 1. Access the Prometheus website<br /> 2. Click on Documentation<br /> 3. Observe Documentation on Github | Senior Project Documentation | Browser navigates to Github repo | Browser navigated to Github repo | PASS |
 | Useability Testing                | Useability Test | Test the useability of the Prometheus newsreader application<br /> and website | Prometheus is compiled, Prometheus website is up,<br />Test environment is open, and the useability testing script is generated | | 1. Follow useability testing script | <a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Useability%20Testing%20Script.md">Useability Testing Script</a> | Average score of 80% (4.0/5.0) | Average: 96% (4.81/5.0) | PASS |
+
+---
+## Useability Testing Script <a id="script"></a>
+
+### Introduction
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome! Thank you for taking the time to participate in this testing experience. Over the course of this test, you will  you will navigate to the Prometheus website, read the installation and operation instructions for the Prometheus newsreader application, then download and operate said application. After each question is a grading scale of 1 to 5, with 1 being extremely unsatisfying and 5 being extremely satisfying. Please record your scores after each question. After testing is complete, you will be asked for potential improvements to the Prometheus website and Prometheus newsreader application. We appreciate any and all feedback in hopes of improving this set of products. Again, thank you for participating in this testing experience. Let's begin.
+</p>
+
+### Testing Script
+1. Open Firefox on the machine before you, then click on the bookmark for the Prometheus Website. How do you rate the initial appearance of the site?
+
+2. Navigate to the Download page. Read the installation instructions for the Windows distribution of Prometheus. Now read the operation instructions. How prepared do you feel to install and run Prometheus after reading these instructions?
+
+3. Follow the instructions as read during step 2. Download the windows distribution of Prometheus. When prompted, change the installation location to ```C:\Users\ricon\Desktop\```. Navigate to the Desktop. Open the Prometheus folder and run Prometheus. Observe that Prometheus is requesting an API Key. To receive one, transition to your browser. Please open the newsapi.org bookmark in a separate tab. Press the login button in the top right corner. Log in using the following credentials:
+
+	Username: REHarris@csustudent.net
+
+	Password: Password
+
+	copy the provided api key using ctrl+'c'. Now, paste that API key in the window opened by the Prometheus application and press enter. How well did the instructions on the Prometheus website prepare you for this process?
+
+4. Move the Prometheus application around your screen. Maximize it. Restore it. Minimize it. Bring it back up. Drag it to the sides of the screen to utilize Windows Snap features. How well did you find the responsiveness of the application?
+
+5. Press the Settings button in the top left of the application. Note that it is shaped like a wrench. Select a country of your choice. Now click "Top Headlines" and select a topic of your choice. Lastly, input a search of your choice. How satisfied are you with your ability to find news articles that you want?
+
+6. Press the Settings button again. Cycle through font sizes. Then toggle the night mode button. How satisfied are you with your ability to manipulate how you see the news?
+
+7. Now that you've experienced all the settings of the Prometheus application, how satisfied are you with the button layout?
+
+8. Reset the application country to "United States". Select the "Top Headlines" topic. Click on a "Read Article" button underneath a news article. Observe the layout of this experience. How satisfied are you with the presentation of the available information?
+
+9. Change the timezone on your testing environment. Now press the reload button on the Prometheus application. Click on the same "Read Article" button underneath the news article from step 8. Note the change in the publication time and/or date. How satisfied are you with this feature?
+
+10. Disconnect from the internet. Now press the reload button on the Prometheus application. This will produce an error message. How informative do you find the error message?
+
+11. Connect to the internet. Now, choose your personal favorite text size and Day/Night mode, then close the Prometheus application. Relaunch the Prometheus application. How satisfied are you with this experience?
+
+### Post-Test Survey
+Thank you for completing the testing steps for the line of Prometheus products. You may now step away from the testing environment; an associate will reset the environment for the next tester. Before you go, are there any improvements you would recommend to the Prometheus website and Prometheus newsreader application?
+
+### Debriefing
+Thank you again for participating in this exercise. Your grading of these products will be used to improve this experience for all future users. Thank you as well for any improvement ideas provided. Have a nice day!

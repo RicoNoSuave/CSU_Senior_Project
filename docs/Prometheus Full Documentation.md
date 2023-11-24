@@ -3948,4 +3948,4 @@ Thank you again for participating in this exercise. Your grading of these produc
 
 ![Forum](../media/presentation/slide10.png)
 
-![Forum](../media/presentation/slide10.png)
+![Forum](../media/presentation/slide11.png)

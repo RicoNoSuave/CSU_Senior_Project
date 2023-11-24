@@ -3928,4 +3928,24 @@ Thank you again for participating in this exercise. Your grading of these produc
 ---
 ## Presentation <a id="presentation"></a>
 
-!![Forum](../media/presentation/slide1.png)
+![Forum](../media/presentation/slide1.png)
+
+![Forum](../media/presentation/slide2.png)
+
+![Forum](../media/presentation/slide3.png)
+
+![Forum](../media/presentation/slide4.png)
+
+![Forum](../media/presentation/slide5.png)
+
+![Forum](../media/presentation/slide6.png)
+
+![Forum](../media/presentation/slide7.png)
+
+![Forum](../media/presentation/slide8.png)
+
+![Forum](../media/presentation/slide9.png)
+
+![Forum](../media/presentation/slide10.png)
+
+![Forum](../media/presentation/slide10.png)

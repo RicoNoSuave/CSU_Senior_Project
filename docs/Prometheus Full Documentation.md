@@ -3928,8 +3928,4 @@ Thank you again for participating in this exercise. Your grading of these produc
 ---
 ## Presentation <a id="presentation"></a>
 
-<object data="./Prometheus%20Presentation.pdf" type="application/pdf" width="700px">
-    <embed src="./Prometheus%20Presentation.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./Prometheus%20Presentation.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+!![Forum](../media/presentation/slide1.png)

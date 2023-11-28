@@ -35,7 +35,7 @@ Expected Graduation: December 2023
 
 ### Introduction
 <p>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome! Thank you for taking the time to participate in this testing experience. Over the course of this test, you will  you will navigate to the Prometheus website, read the installation and operation instructions for the Prometheus newsreader application, then download and operate said application. After each question is a grading scale of 1 to 5, with 1 being extremely unsatisfying and 5 being extremely satisfying. Please record your scores after each question. After testing is complete, you will be asked for potential improvements to the Prometheus website and Prometheus newsreader application. We appreciate any and all feedback in hopes of improving this set of products. Again, thank you for participating in this testing experience. Let's begin.
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome! Thank you for taking the time to participate in this testing experience. Over the course of this test, you will navigate to the Prometheus website, read the installation and operation instructions for the Prometheus newsreader application, then download and operate said application. After each question is a grading scale of 1 to 5, with 1 being extremely unsatisfying and 5 being extremely satisfying. Please record your scores after each question. After testing is complete, you will be asked for potential improvements to the Prometheus website and Prometheus newsreader application. We appreciate any and all feedback in hopes of improving this set of products. Again, thank you for participating in this testing experience. Let's begin.
 </p>
 
 ### Testing Script

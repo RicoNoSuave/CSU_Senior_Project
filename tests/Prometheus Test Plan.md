@@ -120,6 +120,10 @@ Dr. Sean Hayes
 
 ## Test Cases<a id="testing"></a>
 
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following test cases have been selected by focusing on completeness of testing. These test cases represent all features of the Prometheus Website and Newsreader Application, from data integrity to processing and error handling to appearance and ease of use, sequenced by dependency so that no test is dependent on those below it. All tests, save Useability Testing, have been performed manually as to verify compliance. The <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Useability%20Testing%20Script.md">Useability Testing Script</a> was used in tandem with 10 volunteers to test the useability and appearance of the Prometheus Website and Prometheus Newsreader Application. For further results, see the <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Test%20Results.md">Test Results</a> documentation.
+</p>
+
 | Test Scenario                     | Test Type | Test Case | Preconditions | Postconditions | Test Steps | Test Data | Expected Result | Actual Results | PASS/FAIL |
 |-----------------------------------|-----------|-----------|---------------|----------------|------------|-----------|-----------------|----------------|-----------|
 | Validate API Key                  | Unit Test | Check that NewsAPI.org<br /> returns news data | API Key is acquired | | 1. Go to NewsAPI.org<br /> 2. Copy link on front page<br /> 3. Paste in browser<br /> 4. Press Enter | | JSON of News | JSON of News | PASS |

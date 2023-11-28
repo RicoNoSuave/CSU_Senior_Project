@@ -48,13 +48,13 @@ Expected Graduation: December 2023
 <br><br>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Privacy is one of the biggest problems in this new electronic age. At the heart of the Internet culture is a force that wants to find out everything about you. And once it has found out everything about you and two hundred million others, that's a very valuable asset, and people will be tempted to trade and do commerce with that asset. This wasn't the information that people were thinking of when they called this the information age."
 	<br><p align="right">-Andrew Grove</p>
-In the time since, we have seen sweeping advances in the collection and sale of personal data throughout the internet, to the worry of many. According to Pew Research, 80% of Americans are concerned about the collection and use of personal data for profit, viewing it as a net negative on society. Yet the same percentage feel that they have little to no control over their own personal data on the internet. This problem has been exacerbated by the amount we rely on the internet for basic services such as the free press, which is integral to a free and fair democracy. Again, per Pew Research, 86% of Americans get some form of news through the internet, with half of those that use social media getting the majority of their news from those platforms. This is problematic because, given the short-form nature of social media posts, news access through social media platforms is non-existent. Instead, news is disseminated across these platforms in the form of hyperbolic, inflammatory headlines to grab attention, followed by links to the source material. Yet even when Americans are interested in the headlines shown across their feeds, only 41% of Americans will click on those links to read the associated articles. When surveyed, the number one reason users don't follow through is not wanting to navigate to a different site, partly out of concerns for furthering the spread of their personal data through site-tracking cookies. This reluctance to navigate the broader internet due to privacy concerns, coupled with the dominant method of spreading news across social media, has resulted in a measurable decrease in media literacy; Pew Research shows that users who only get their news from social media are 32% less knowledgeable on current events. This growing lack of media literacy has immesurably harmed the fabric of American society. My thesis is that one way we can increase media literacy is by aggregating news into a single platform focused on readability, and that by doing so in a way that does not collect or share personal data, we can attract a userbase as an alternative to both news sites and social media.
+In the time since, we have seen sweeping advances in the collection and sale of personal data throughout the internet, to the worry of many. According to Pew Research, 80% of Americans are concerned about the collection and use of personal data for profit, viewing it as a net negative on society. Yet the same percentage feel that they have little to no control over their own personal data on the internet. This problem has been exacerbated by the amount we rely on the internet for basic services such as the free press, which is integral to a free and fair democracy. Again, per Pew Research, 86% of Americans get some form of news through the internet, with half of those that use social media getting the majority of their news from those platforms. This is problematic because, given the short-form nature of social media posts, news access through social media platforms is non-existent. Instead, news is disseminated across these platforms in the form of hyperbolic, inflammatory headlines to grab attention, followed by links to the source material. Yet even when Americans are interested in the headlines shown across their feeds, only 41% of Americans will click on those links to read the associated articles. When surveyed, the number one reason users don't follow through is not wanting to navigate to a different site, partly out of concerns for furthering the spread of their personal data through site-tracking cookies. This reluctance to navigate the broader internet due to privacy concerns, coupled with the dominant method of spreading news across social media, has resulted in a measurable decrease in media literacy; Pew Research shows that users who only get their news from social media are 32% less knowledgeable on current events. This growing lack of media literacy has immesurably harmed the fabric of American society. My thesis is that one way we can increase media literacy is by aggregating news into a single platform focused on readability, and that by doing so in a way that does not collect or share personal data, we can attract a userbase as an alternative to both news sites and social media. I believe that Prometheus, a rust-based newsreader application built to process API calls from NewsAPI.org, can meet this need.
 </p>
 
 
 ### Project Description
 <p>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prometheus is a rust-based newsreader application that displays both aggregate news data and articles as requested by users through default or customizeable searches. Searches are executed through the newsapi.org platform, ensuring articles are curated from verifiable media sources in a way that does not share any personal data. Prometheus will have a setting for country and a setting for category, both of which default to United States and Top Stories respectively. Furthermore, there will be a search text box and button. Articles will be listed with headlines and descriptions, along with a button to load the article for reading if available, as well as a hyperlink to the article for more content. Prometheus will have night-mode support and a font size menu to aid in readability. Lastly, there will be a website for downloading Prometheus and a markdown user guide. As a rust-based distribution, executables will be available for Windows and Linux operating systems.
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prometheus is a rust-based newsreader application that displays both aggregate news data and articles as requested by users through default or customizeable searches. Searches are executed through the newsapi.org platform, ensuring articles are curated from verifiable media sources in a way that does not share any personal data. Prometheus has a setting for country and a setting for category, both of which default to United States and Top Stories respectively. Furthermore, there is a search text box and button. Articles are listed with headlines and descriptions, along with a button to load the article for reading if available, as well as a hyperlink to the article for more content. Prometheus has dark mode support and a font size menu to aid in readability. Lastly, there is a website for downloading Prometheus and a markdown user guide. As a rust-based distribution, executables are available for Windows and Linux operating systems.
 </p>
 
 ### Proposed Implementation Languages
@@ -68,6 +68,7 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 
 ### Additional Software/Equipment Needed
 * Laptop/PC
+* Visual Studio Code
 
 ### Personal Motivation
 <p>
@@ -1957,7 +1958,7 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 				Description:
 			</td>
 			<td colspan=5>
-				Night Mode
+				Dark Mode
 			</td>
 		</tr>
 		<tr>
@@ -1965,7 +1966,7 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 				Rationale:
 			</td>
 			<td colspan=5>
-				To be able to enable or disable night mode.
+				To be able to enable or disable dark mode.
 			</td>
 		</tr>
 		<tr>
@@ -2346,7 +2347,7 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 				Fit Criterion:
 			</td>
 			<td colspan=5>
-				Prometheus should load a stored API key, as well as night mode and<br />
+				Prometheus should load a stored API key, as well as dark mode and<br />
 				font size preferences at runtime.
 			</td>
 		</tr>
@@ -3634,7 +3635,7 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 
 ### Project Description
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project is a full development cycle of a newsreader application from development in Rust to deployment through a React application. The Prometheus application is a standalone GUI built using the Rust Eframe framework, built to display information as requested from https://newsapi.org/. News can be requested by topic or by custom searches. These results are sorted by most engagement by country, which is set by the user. Lastly, the user can customize their viewing experience through modifying the font size and through toggling night mode. The React application serves as a website for the distribution of the Prometheus application, including a description of the product, download links for the product by Operating System, installation instructions, and operational instructions.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project is a full development cycle of a newsreader application from development in Rust to deployment through a React application. The Prometheus application is a standalone GUI built using the Rust Eframe framework, built to display information as requested from https://newsapi.org/. News can be requested by topic or by custom searches. These results are sorted by most engagement by country, which is set by the user. Lastly, the user can customize their viewing experience through modifying the font size and through toggling dark mode. The React application serves as a website for the distribution of the Prometheus application, including a description of the product, download links for the product by Operating System, installation instructions, and operational instructions.
 The React application also links to the compiled Senior Project documentation ([found here](https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/docs/Prometheus%20Full%20Documentation.md)).
 
 ### How to compile and run the program
@@ -3684,7 +3685,7 @@ When using the Prometheus Application for the first time, you need to have an AP
 
 <img src="./../media/search.png" style="width:450px"><br />Fig 8. Search screen.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By clicking the settings button in the top right (see Fig 9), you can change to the top news in a different country (see Fig 10), change the text size (see Fig 11), and link back to the Homepage. Lastly, to invert the color scheme, click the night-mode button on the right (see Fig 12).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By clicking the settings button in the top right (see Fig 9), you can change to the top news in a different country (see Fig 10), change the text size (see Fig 11), and link back to the Homepage. Lastly, to invert the color scheme, click the dark mode button on the right (see Fig 12).
 
 <img src="./../media/settings.png" style="width:450px"><br />Fig 9. Settings.
  
@@ -3692,38 +3693,7 @@ When using the Prometheus Application for the first time, you need to have an AP
  
 <img src="./../media/text_size.png" style="width:450px"><br />Fig 11. Choose your text size.
 
-<img src="./../media/night_mode.png" style="width:450px"><br />Fig 12. Night mode.
-
-### Additional Considerations
-
-To use the Prometheus application, you will need an API key from https://newsapi.org/.
-<img src="./../media/Download.png"><br />Fig 2. The Download page.
- 
-<img src="./../media/Useage.png"><br />Fig 3. Useage instructions on the Download page.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When using the Prometheus Application for the first time, you need to have an API Key from https://newsapi.org/ (see Fig 4).
-
-<img src="./../media/first_start.png" style="width:450px"><br />Fig 4. The launch screen before entering an API Key.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once you have an API entered, you will have access to the full application (see Fig 5). When using Prometheus, you can change topics (see Fig 6), access articles (see Fig 7), and search for specific articles (see Fig 8).
-
-<img src="./../media/running.png" style="width:450px"><br />Fig 5. Prometheus running as normal.
-
-<img src="./../media/headlines.png" style="width:450px"><br />Fig 6. Changing news topics.
-
-<img src="./../media/article.png" style="width:450px"><br />Fig 7. A rendered article.
-
-<img src="./../media/search.png" style="width:450px"><br />Fig 8. Search screen.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By clicking the settings button in the top right (see Fig 9), you can change to the top news in a different country (see Fig 10), change the text size (see Fig 11), and link back to the Homepage. Lastly, to invert the color scheme, click the night-mode button on the right (see Fig 12).
-
-<img src="./../media/settings.png" style="width:450px"><br />Fig 9. Settings.
- 
-<img src="./../media/country.png" style="width:450px"><br />Fig 10. Choose your country.
- 
-<img src="./../media/text_size.png" style="width:450px"><br />Fig 11. Choose your text size.
-
-<img src="./../media/night_mode.png" style="width:450px"><br />Fig 12. Night mode.
+<img src="./../media/night_mode.png" style="width:450px"><br />Fig 12. Dark mode.
 
 ### Additional Considerations
 
@@ -3787,7 +3757,7 @@ The user will be able to:
   * Searches
 * Customize displayed news through font size selection
 * Access news further via article selection and external links
-* Maintain Country, font size, night mode, and API key across repeated instances
+* Maintain Country, font size, dark mode, and API key across repeated instances
 * Download distributions of Prometheus newsreader application for both Windows and Linux
 * Read usage instructions for the Prometheus newsreader application on the Prometheus website
 
@@ -3822,7 +3792,7 @@ Dr. Sean Hayes
 
 ### Introduction
 <p>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome! Thank you for taking the time to participate in this testing experience. Over the course of this test, you will  you will navigate to the Prometheus website, read the installation and operation instructions for the Prometheus newsreader application, then download and operate said application. After each question is a grading scale of 1 to 5, with 1 being extremely unsatisfying and 5 being extremely satisfying. Please record your scores after each question. After testing is complete, you will be asked for potential improvements to the Prometheus website and Prometheus newsreader application. We appreciate any and all feedback in hopes of improving this set of products. Again, thank you for participating in this testing experience. Let's begin.
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome! Thank you for taking the time to participate in this testing experience. Over the course of this test, you will navigate to the Prometheus website, read the installation and operation instructions for the Prometheus newsreader application, then download and operate said application. After each question is a grading scale of 1 to 5, with 1 being extremely unsatisfying and 5 being extremely satisfying. Please record your scores after each question. After testing is complete, you will be asked for potential improvements to the Prometheus website and Prometheus newsreader application. We appreciate any and all feedback in hopes of improving this set of products. Again, thank you for participating in this testing experience. Let's begin.
 </p>
 
 ### Testing Script
@@ -3842,7 +3812,7 @@ Dr. Sean Hayes
 
 5. Press the Settings button in the top left of the application. Note that it is shaped like a wrench. Select a country of your choice. Now click "Top Headlines" and select a topic of your choice. Lastly, input a search of your choice. How satisfied are you with your ability to find news articles that you want?
 
-6. Press the Settings button again. Cycle through font sizes. Then toggle the night mode button. How satisfied are you with your ability to manipulate how you see the news?
+6. Press the Settings button again. Cycle through font sizes. Then toggle the dark mode button. How satisfied are you with your ability to manipulate how you see the news?
 
 7. Now that you've experienced all the settings of the Prometheus application, how satisfied are you with the button layout?
 
@@ -3852,7 +3822,7 @@ Dr. Sean Hayes
 
 10. Disconnect from the internet. Now press the reload button on the Prometheus application. This will produce an error message. How informative do you find the error message?
 
-11. Connect to the internet. Now, choose your personal favorite text size and Day/Night mode, then close the Prometheus application. Relaunch the Prometheus application. How satisfied are you with this experience?
+11. Connect to the internet. Now, choose your personal favorite text size and Day/Dark mode, then close the Prometheus application. Relaunch the Prometheus application. How satisfied are you with this experience?
 
 ### Post-Test Survey
 Thank you for completing the testing steps for the line of Prometheus products. You may now step away from the testing environment; an associate will reset the environment for the next tester. Before you go, are there any improvements you would recommend to the Prometheus website and Prometheus newsreader application?
@@ -3862,6 +3832,11 @@ Thank you again for participating in this exercise. Your grading of these produc
 
 ---
 ## Useability Testing Results <a id="result"></a>
+
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following results show that overall, the Prometheus website and application meet satisfactory conditions as outlined in the <a href="#plan">Test Plan</a> documentation. All users rated all features at least "satisfied," with the majority of users rating the installation instructions, the installation process, the responsiveness of the application, the search functions, the application button layout, the article layout, the timezone feature, the error handling, and the saved state features as "extremely satisfied." Of note, half of users rated the website layout and the available viewing settings as "extremely satisfied," which is reflected in the <a href="#enhancements">Future Enhancements</a> documentation; the majority of suggested improvements deal with these two features. Still, the results from these areas, as well as all others, exceed the scoring goal of 4.0/5.0.
+</p>
+
 | Tester ID | Problem 1 | Problem 2 | Problem 3 | Problem 4 | Problem 5 | Problem 6 | Problem 7 | Problem 8 | Problem 9 | Problem 10 | Problem 11 | Average |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|------------|---------|
 | 1 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
@@ -3874,10 +3849,14 @@ Thank you again for participating in this exercise. Your grading of these produc
 | 8 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
 | 9 | 4 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 4.73 |
 | 10 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
-| Total |  |  |  |  |  |  |  |  |  |  |  | 4.82 |
+| Avg | 4.5 | 5 | 4.6 | 5 | 4.9 | 4.5 | 5 | 5 | 5 | 4.7 | 4.9 | 4.82 |
 
 ---
 ## Test Cases<a id="testing"></a>
+
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following test cases have been selected by focusing on completeness of testing. These test cases represent all features of the Prometheus Website and Newsreader Application, from data integrity to processing and error handling to appearance and ease of use, sequenced by dependency so that no test is dependent on those below it. All tests, save Useability Testing, have been performed manually as to verify compliance. The <a href="#script">Useability Testing Script</a> was used in tandem with 10 volunteers to test the useability and appearance of the Prometheus Website and Prometheus Newsreader Application. For further results, see the <a href="#result">Test Results</a> documentation.
+</p>
 
 | Test Scenario                     | Test Type | Test Case | Preconditions | Postconditions | Test Steps | Test Data | Expected Result | Actual Results | PASS/FAIL |
 |-----------------------------------|-----------|-----------|---------------|----------------|------------|-----------|-----------------|----------------|-----------|
@@ -3895,9 +3874,9 @@ Thank you again for participating in this exercise. Your grading of these produc
 | Validate Country Menu             | Unit Test | Check that each country<br /> selection works | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Cycle through each country | | Each country loads new articles | Each country loaded new articles | PASS |
 | Validate Topic Menu               | Unit Test | Check that each topic<br /> selection works | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Cycle through each topic | | Each country loads new articles | Each country loaded new articles | PASS |
 | Ensure Search Capability          | Integration Test | Check the "search" function | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Enter "test" in search box<br /> 3. Click Search | | New articles load related to search topic<br />Search topic displays to user | New articles loaded related to search topic<br />Search topic displayed | PASS |
-| Ensure Night Mode Capability      | Integration Test | Test the Night Mode button | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Click Night Mode<br /> 3. Observe icon change<br /> 4. Click Night Mode<br /> 4. Observe icon change | | Night Mode button toggles black/white background<br /> with white/black text, respectively | Night Mode button toggled black/white background<br /> with white/black text, respectively | PASS |
+| Ensure Dark Mode Capability      | Integration Test | Test the Dark Mode button | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Click Dark Mode<br /> 3. Observe icon change<br /> 4. Click Dark Mode<br /> 4. Observe icon change | | Dark Mode button toggles black/white background<br /> with white/black text, respectively | Dark Mode button toggled black/white background<br /> with white/black text, respectively | PASS |
 | Ensure Font Size Capability       | Integration Test | Check that each font size<br /> changes the font size in Prometheus | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Cycle through each font size | | Each font size alters text size appropriately | Each font size altered text size appropriately | PASS |
-| Ensure Save State Capability      | Integration Test | Ensure that Prometheus saves<br /> Night Mode and Font Size<br /> between runs | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Set new Night Mode and Font Size settings<br /> 3. Close Prometheus<br /> 4. Launch Prometheus | | Night Mode and Font Size persist through runs | Night Mode and Font Size persisted through runs | PASS | 
+| Ensure Save State Capability      | Integration Test | Ensure that Prometheus saves<br /> Dark Mode and Font Size<br /> between runs | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Set new Dark Mode and Font Size settings<br /> 3. Close Prometheus<br /> 4. Launch Prometheus | | Dark Mode and Font Size persist through runs | Dark Mode and Font Size persisted through runs | PASS | 
 | Ensure Settings Button Capability | Integration Test | Store Font Size and Country<br /> menus behind Settings button | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Click Settings button<br /> 3. Change Country<br /> 4. Click Settings button<br /> 5. Change Font Size | | Country and Font Size menus are behind Settings button | Country and Font Size menus are behind Settings button | PASS |
 | Ensure Custom Frame Functionality | Integration Test | Ensure that the custom frame<br /> displays custom icon, settings button,<br /> maximize/minimize/close buttons,<br /> and is moveable | Prometheus is compiled | | 1. Launch Prometheus<br /> 2. Observe Icon<br /> 3.Observe Settings Button<br /> 4. Drag Prometheus around screen<br /> 5. Maximize Prometheus<br /> 6. Restore Prometheus<br /> 7. Minimize Prometheus<br /> 8. Bring Prometheus up<br /> 9. Close Prometheus | | Frame contains proper elements and functions properly | Frame contained proper elements and functioned properly | PASS |
 | Visit website                     | Integration Test | Ensure that the Prometheus website<br /> is functional | Prometheus website is up | | 1. Navigate to the Prometheus website | | Prometheus website is functional | Prometheus website was functional | PASS |
@@ -3911,14 +3890,15 @@ Thank you again for participating in this exercise. Your grading of these produc
 ## Challenges Overcome <a id="challenges"></a>
 
 <p>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over the course of this project, I have faced many challenges. As a rust-based application, creating Prometheus required learning and mastering rust. After mastering the language, I had to learn how to build an API, including how to request and parse JSONs from JavaScript. Once the API was complete, I needed to build a GUI using the rust eframe framework. After completing the application, I researched how to package and distribute software. In pursuit of that goal, I built a new React app that allows users to read instructions and download my application. By far the most difficult challenge I have overcome has been timing; initially, this project was supposed to be a rust-based terminal. Other than learning rust, I have completed this entire project in just two months. There have been many nights I have been at school working on this project until 3-4 a.m., only to be back for class at 9 a.m., and I have done all of this while maintaining a straight A average during an 18-hour semester. All said I would highly recommend experiencing everything I have done; rust is an amazing language, and learning the distribution side of development is important. I wouldn't recommend my timeline, but my experiences have been worth their weight in gold.
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over the course of this project, I have faced many challenges. As a rust-based application, creating Prometheus required learning and mastering rust. After mastering the language, I had to learn how to build an API, including how to request and parse JSONs from JavaScript. Once the API was complete, I needed to build a GUI using the rust eframe framework. This was one of the more difficult aspects of the project; I had never built a GUI, let alone one in a new language. Once the frame was set up, I decided to customize it by adding an icon. Unbeknownst to me, this meant I had to turn off the generic frame that Linux and Windows issue to applications and build my own. This meant not just building functionality for minimizing, maximizing, and closing the application, but building functionality for the frame to be moveable like any other frame.<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After completing the application, I researched how to package and distribute software. In pursuit of that goal, I built a new React app that allows users to read instructions and download my application. By far the most difficult challenge I have overcome has been timing; initially, this project was supposed to be a rust-based terminal. Unfortunately, building a terminal requires access to the shell. Rust has a native library to send commands to the shell, but it does not handle built-ins, which meant that it could not use commands such as "netstat," "cd," "mkdir," etc. I had built about 3 of these built-ins before I realized that I could not finish in time, if at all. So, on October 5th, 2023, I had a meeting with my advisor and switched it up. As such, I had two months to complete this project. I am proud to say that I not only succeeded, but did so while maintaining an A average in my courses during this 18-hour semester. There have been many nights I have been at school working on this project until 3-4 a.m., only to be back for class at 9 a.m. All said I would highly recommend experiencing everything I have done; rust is an amazing language, and learning the distribution side of development is important. I wouldn't recommend my timeline, but my experiences have been worth their weight in gold.
 </p>
 
 ---
 ## Future Enhancements <a id="enhancements"></a>
 
 1. Add a feature to the settings button in the Prometheus newsreader application to hide the settings menu once any choice is made.
-2. Find new sun icon for night mode.
+2. Find new sun icon for dark mode.
 3. Allow font size to change button size.
 4. Enable error messages to scale with font size.
 5. Enable darkmode on the website.

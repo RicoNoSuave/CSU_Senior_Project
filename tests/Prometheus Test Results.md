@@ -84,6 +84,11 @@ Expected Graduation: December 2023
 
 ---
 ## Test Results <a id="result"></a>
+
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following results show that overall, the Prometheus website and application meet satisfactory conditions as outlined in the <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Test%20Plan.md">Test Plan</a> documentation. All users rated all features at least "satisfied," with the majority of users rating the installation instructions, the installation process, the responsiveness of the application, the search functions, the application button layout, the article layout, the timezone feature, the error handling, and the saved state features as "extremely satisfied." Of note, half of users rated the website layout and the available viewing settings as "extremely satisfied," which is reflected in the <a href="https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/tests/Prometheus%20Enhancement%20Logs.md">Enhancement Logs</a> documentation; the majority of suggested improvements deal with these two features. Still, the results from these areas, as well as all others, exceed the scoring goal of 4.0/5.0.
+</p>
+
 | Tester ID | Problem 1 | Problem 2 | Problem 3 | Problem 4 | Problem 5 | Problem 6 | Problem 7 | Problem 8 | Problem 9 | Problem 10 | Problem 11 | Average |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|------------|---------|
 | 1 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
@@ -96,6 +101,6 @@ Expected Graduation: December 2023
 | 8 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
 | 9 | 4 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 4.73 |
 | 10 | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4.91 |
-| Total |  |  |  |  |  |  |  |  |  |  |  | 4.82 |
+| Avg | 4.5 | 5 | 4.6 | 5 | 4.9 | 4.5 | 5 | 5 | 5 | 4.7 | 4.9 | 4.82 |
 
 * For enhancement suggestions, please see the <a href="https://github.com/RHarris87345/CSU-Senior-Project/blob/master/tests/Prometheus%20Enhancement%20Logs.md"> Enhancement Logs</a>

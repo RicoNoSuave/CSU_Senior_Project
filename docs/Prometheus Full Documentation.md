@@ -3246,7 +3246,8 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 				History:
 			</td>
 			<td colspan=5>
-				10/5/2023: Created
+				10/5/2023: Created<br />
+				11/27/2023: Completed
 			</td>
 		</tr>
 		<tr>
@@ -3336,7 +3337,8 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 				History:
 			</td>
 			<td colspan=5>
-				10/5/2023: Created
+				10/5/2023: Created<br />
+				11/27/2023: Completed
 			</td>
 		</tr>
 		<tr>
@@ -3426,7 +3428,8 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 				History:
 			</td>
 			<td colspan=5>
-				10/5/2023: Created
+				10/5/2023: Created<br />
+				11/27/2023: Completed
 			</td>
 		</tr>
 		<tr>
@@ -3518,7 +3521,8 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 				History:
 			</td>
 			<td colspan=5>
-				10/5/2023: Created
+				10/5/2023: Created<br />
+				11/27/2023: Completed
 			</td>
 		</tr>
 		<tr>
@@ -3609,14 +3613,16 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 				History:
 			</td>
 			<td colspan=5>
-				10/5/2023: Created
+				10/5/2023: Created<br />
+				12/1/2023: Completed
 			</td>
 		</tr>
 	</tbody>
 </table>
 
 
-<b>Priority Rating:</b></br>
+### Priority Rating:
+
 1. Integral to the function of Prometheus as an executable.<a id="prio1"></a></br>
 2. Necessary for a feature required for the minimum viable product.<a id="prio2"></a></br>
 3. Necessary for a feature required for the complete product.<a id="prio3"></a></br>
@@ -3624,11 +3630,31 @@ In the time since, we have seen sweeping advances in the collection and sale of 
 5. Completion of product.<a id="prio5"></a></br>
 
 
-<b>Case List:</b></br>
+### Case List:
+
 1. User should be able to use Prometheus as a functional Newsreader.<a id="case1"></a></br>
 2. User should be able to customize Prometheus news requests.<a id="case2"></a></br>
 3. User should be able to customize Prometheus to display according to preference.<a id="case3"></a></br>
 4. User should be able to access Prometheus distributions and documentation through the internet.<a id="case4"></a>
+
+
+### References:
+
+* ![Linux Installer Guide](https://www.baeldung.com/linux/create-application-installer)
+* ![Project Design Syllabus](https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/references/Syllabus_497_Senior_Project_Design.md)
+* ![Project Construction Syllabus](https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/references/Syllabus_498_Senior_Project_Construction.md)
+* ![Project Defense Syllabus](https://github.com/RicoNoSuave/CSU_Senior_Project/blob/master/references/Syllabus_499_Senior_Project_Defense.md)
+* ![MERN Stack Tutorial](https://www.mongodb.com/languages/mern-stack-tutorial)
+* ![NewsAPI.org Documentation](https://newsapi.org/docs)
+* ![NewsAPI.org Getting Started Guide](https://newsapi.org/docs/get-started)
+* ![React.js Documentation](https://react.dev/blog/2023/03/16/introducing-react-dev)
+* ![Rust URL Crate](https://docs.rs/url/latest/url/)
+* ![Rust Serde JSON Crate](https://docs.rs/serde_json/latest/serde_json/)
+* ![Rust Serde Crate](https://docs.rs/serde/latest/serde/trait.Serialize.html)
+* ![Rust EFrame Crate](https://docs.rs/eframe/latest/eframe/)
+* ![Rust EGUI Crate](https://docs.rs/egui/latest/egui/)
+* ![Volere Requirements Guide](https://www.volere.org/templates/volere-requirements-specification-template/)
+* ![Windows Installer Guide](https://www.makeuseof.com/tag/how-to-make-an-exe-installation-file/)
 
 ---
 ## Project Implementation<a id="impl"></a>
